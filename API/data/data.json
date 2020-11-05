@@ -1,0 +1,71 @@
+{
+    "users": [
+        {
+            "id": "6d55ae-bcf7-4446-0c21-648fea223",
+            "username": "SebastienK",
+            "password": "password123",
+            "firstName": "Sebastien",
+            "lastName": "Kronlund",
+            "adress": {
+                "street": "Hackersväg 69",
+                "city": "Cybertown",
+                "postalCode": 42069
+            },
+            "phoneNumber": "070 455 73 39",
+            "personNummer": "19950508-1234",
+            "perscriptions": {
+                "active": [],
+                "expired": [],
+                "requested": []
+            },
+            "appointments": [
+                {
+                    "day": 29,
+                    "month": "November",
+                    "time": "12:34"
+                },
+                {
+                    "day": 30,
+                    "month": "November",
+                    "time": "13:37"
+                },
+                {
+                    "day": 13,
+                    "month": "December",
+                    "time": "11:11"
+                }
+            ],
+            "messages": {
+                "new": 1,
+                "sent": [
+                    {
+                        "timestamp": 1604584336050,
+                        "message": "Yes. I’ve been taking my medication just as you told me and it really seems to be helping. My symptoms are much better!",
+                        "from": "Sebastien Kronlund",
+                        "to": "Dr. Rosengren"
+                    }
+                ],
+                "recieved": [
+                    {
+                        "timestamp": 1604584225050,
+                        "message": "Hello Sebastien, are you taking your medication in accordance to the perscription that I assaigned you?",
+                        "from": "Dr. Rosengren",
+                        "to": "Sebastien Kronlund"
+                    },
+                    {
+                        "timestamp": 1604584457050,
+                        "message": "Perfect. Then we will continue with this perscription and dosage for now. If there were to be any complications, please contact me!",
+                        "from": "Dr. Rosengren",
+                        "to": "Sebastien Kronlund"
+                    }
+                ]
+            },
+            "hospital": {
+                "name": "Karolinska Institutet",
+                "street": "Solnavägen 1",
+                "city": "Solna"
+            },
+            "notifications": true
+        }
+    ]
+}
