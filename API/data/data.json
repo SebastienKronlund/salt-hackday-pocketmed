@@ -13,6 +13,18 @@
             },
             "phoneNumber": "070 455 73 39",
             "personNummer": "19950508-1234",
+            "diagnoses": [
+                {
+                    "name": "Crohn's disease",
+                    "description": "A type of inflammatory bowel disease (IBD) that may affect any segment of the gastrointestinal tract. Symptoms often include abdominal pain, diarrhea (which may be bloody if inflammation is severe), fever, abdominal distension, and weight loss. Other complications outside the gastrointestinal tract may include anemia, skin rashes, arthritis, inflammation of the eye, and fatigue",
+                    "diagnose": "Inflammation of the intestinal tract, specifically in the mid-to-lower intestines. Patient is seeing improvement of symptoms after medication, and our latest appointment has shown signs of regression."
+                },
+                {
+                    "name": "Migraine",
+                    "description": "Migraine is a primary headache disorder characterized by recurrent headaches that are moderate to severe. Typically, episodes affect one half of the head, are pulsating in nature, and last from a few hours to 3 days. Associated symptoms may include nausea, vomiting, and sensitivity to light, sound, or smell. The pain is generally made worse by physical activity.",
+                    "diagnose": "The patient shows signs of regular migraine attacks, the severity of which make it difficult to continue on with regular daily activities. The patient will be perscribed Citodon in cases of sudden attacks.. "
+                }
+            ],
             "perscriptions": {
                 "active": [
                     {
@@ -78,20 +90,20 @@
                         "timestamp": 1604584336050,
                         "message": "Yes. I’ve been taking my medication just as you told me and it really seems to be helping. My symptoms are much better!",
                         "from": "Sebastien Kronlund",
-                        "to": "Dr. Rosengren"
+                        "to": "Dr. Rosenberg"
                     }
                 ],
                 "recieved": [
                     {
                         "timestamp": 1604584225050,
                         "message": "Hello Sebastien, are you taking your medication in accordance to the perscription that I assaigned you?",
-                        "from": "Dr. Rosengren",
+                        "from": "Dr. Rosenberg",
                         "to": "Sebastien Kronlund"
                     },
                     {
                         "timestamp": 1604584457050,
                         "message": "Perfect. Then we will continue with this perscription and dosage for now. If there were to be any complications, please contact me!",
-                        "from": "Dr. Rosengren",
+                        "from": "Dr. Rosenberg",
                         "to": "Sebastien Kronlund"
                     }
                 ]
@@ -100,6 +112,27 @@
                 "name": "Karolinska Institutet",
                 "street": "Solnavägen 1",
                 "city": "Solna"
+            },
+            "billing": {
+                "history": [
+                    {
+                        "product": "Asacol Mesalazin, 800mg",
+                        "price": 849
+                    },
+                    {
+                        "product": "Citodon, 500mg/30mg",
+                        "price": 379
+                    },
+                    {
+                        "product": "Azathiprion Actavis, 50mg",
+                        "price": 249
+                    }
+                ],
+                "information": {
+                    "cardNumber": "1234 5678 9101 1213",
+                    "expireDate": "11/22",
+                    "cvv": "123"
+                }
             },
             "notifications": true
         }
