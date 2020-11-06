@@ -14,9 +14,45 @@
             "phoneNumber": "070 455 73 39",
             "personNummer": "19950508-1234",
             "perscriptions": {
-                "active": [],
-                "expired": [],
-                "requested": []
+                "active": [
+                    {
+                        "name": "Azathiprion Actavis, 50mg",
+                        "remaining": {
+                            "left": 2,
+                            "of": 4
+                        }
+                    },
+                    {
+                        "name": "Cortiment Budesonid, 9mg",
+                        "remaining": {
+                            "left": 1,
+                            "of": 3
+                        }
+                    },
+                    {
+                        "name": "Citodon, 500mg/30mg",
+                        "remaining": {
+                            "left": 2,
+                            "of": 5
+                        }
+                    }
+                ],
+                "expired": [
+                    {
+                        "name": "Asacol Mesalazin, 800mg",
+                        "remaining": "Expired"
+                    },
+                    {
+                        "name": "Prednisolon APL, 10mg",
+                        "remaining": "Expired"
+                    }
+                ],
+                "requested": [
+                    {
+                        "name": "Broad Spectrum CBD, 1500mg",
+                        "reason": "Stomach Pains and Nausea"
+                    }
+                ]
             },
             "appointments": [
                 {
